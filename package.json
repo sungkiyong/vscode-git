@@ -1,0 +1,18 @@
+{
+  "name": "project2018",
+  "version": "1.0.0",
+  "description": "Build a web server using React and Express",
+  "main": "SUNG KI YONG",
+  "scripts": {
+    "test": "MIT",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
