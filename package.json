@@ -4,10 +4,15 @@
   "description": "Build a web server using React and Express",
   "main": "SUNG KI YONG",
   "scripts": {
+    "client-install": "cd client && npm install",
+
     "test": "MIT",
     "start": "node server.js",
-    "server": "nodemon server.js"
-
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"" 
+  
+    
     
   },
   "author": "",
